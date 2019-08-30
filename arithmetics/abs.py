@@ -4,12 +4,7 @@ return the absolute value of a number
 
 '''
 def abs (number):
-    absolute = 0
-    if number < 0:
-        absolute = number * -1
-    else:
-        absolute = number
-    return absolute
+    return number * -1 if number < 0 else number
 
 def main():
     print(abs(4)) # 4
