@@ -3,8 +3,8 @@ abs.py
 return the absolute value of a number
 
 '''
-def abs (number):
-    return number * -1 if number < 0 else number
+def abs (num):
+    return num * -1 if num < 0 else num
 
 def main():
     print(abs(4)) # 4
